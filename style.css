@@ -87,6 +87,10 @@
 
 .ex-9-img:hover{
     filter: grayscale(100%);
+    filter: blur(10px);
+    transition: 2s;
+    border-radius: 50%;
+    transform: scale(0.7);
 }
 .ex-10-icon {
     font-size: 60px;
